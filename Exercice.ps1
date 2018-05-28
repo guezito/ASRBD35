@@ -1,4 +1,4 @@
-﻿function exo08
+﻿#function exo08
 {
     for ($i =0; $i -lt 500; $i++) {
     Write-Host -ForegroundColor Cyan "Je dois faire des sauvegardes régulierement"
@@ -47,14 +47,23 @@ function exo13
 {
 $u = Read-Host "Saisir un nombre compris entre 10 et 20"
 
-if ($u -ge 20) {
+if ($u -gt 20) {
 Write-Host -ForegroundColor Yellow "Plus petit !"
  }
- if ($u -le 10) {
+ if ($u -lt 10) {
  Write-Host -ForegroundColor Yellow "Plus Grand !"
  }
  if ($u -match 10 -and 20) {
  Write-Host -ForegroundColor Yellow "C'est good"
  } 
 }
-exo13
+
+
+function exo14 {
+
+$u = Read-Host "Saisir un nombre"
+$i =
+
+
+
+}
